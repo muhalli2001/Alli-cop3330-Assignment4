@@ -137,21 +137,43 @@ class ControllerTest {
     @Test
     void saveAll_ToExternal() {
         /*
-
+        Create file with filepath in test folder
+        If already created, report already created and skip writing to file
+        If not created, create file, write the contents of arraylist (A) into file in csv format
+        read contents into an arraylist (B) of todo list.
+        assertEquals(A, B);
          */
     }
 
     @Test
     void saveList_ToExternal() {
+
+        /*
+         Create file with filepath in test folder
+        If already created, report already created and skip writing to file
+        If file doesn't exist, create the file.
+        write contents of single tasklist (A) to file
+        read the contents of the created file into arraylist of tasks list (B)
+        assertEquals (A,B);
+         */
     }
 
     @Test
     void open_All_FromExternal() {
+        /*
+            read todo lists from file.
+            Store the information into an arraylist
+            asserttrue(arraylist.size()>0);
+         */
     }
     @Test
     void Open_List_FromExternal() {
 
-
+        /*
+               read tasklists from file.
+            Store the information into an arraylist
+            asserttrue(arraylist.size()==1);
+         */
         }
 
 }

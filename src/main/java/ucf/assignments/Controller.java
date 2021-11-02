@@ -60,7 +60,7 @@ public class Controller {
         /*System.out.println(taskListName.getText());
         LocalDate mydate = TaskDate.getValue();
         Task addTask = new Task(mydate.toString(), Description.getText());
-        addTask.complete = false;
+
         _taskList.AddToTaskList(addTask);
 
         System.out.println(_taskList.toString()); */
